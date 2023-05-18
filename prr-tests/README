@@ -1,0 +1,172 @@
+Guardar/Abrir Estado
+
+# A-01-01-M-ok - Abrir aplicação sem import e ver os menus todos 
+# A-01-02-M-ok - Abrir aplicação com Cliente e vê e guardar em app01.dat
+# A-01-03-M-ok - Abrir aplicação vazia, carrega app01.dat e vê Clientes  
+# A-01-04-M-ok - Abrir aplicação com Terminal e Cliente, vê terminais e guarda em app02.dat 
+# A-01-05-M-ok - Abrir aplicação vazia, carrega app02.dat e vê Clientes e terminais
+# A-01-06-M-ok - Abrir ficheiro não existente 
+# A-01-07-M-ok - Abrir aplicação com cliente, guarda app03.dat, cria novo cliente, guarda 
+# A-01-08-M-ok - Abrir aplicação vazia, carrega app03.dat e vê cliente cria novo cliente, guarda 
+# A-01-09-M-ok - Abrir aplicação com import, carrega app03.dat e vê clientes
+
+Visualizar cliente
+
+# A-03-01-M-ok - Visualizar cliente não existente com clientes carregados
+# A-03-02-M-ok - Visualizar cliente não existente sem clientes carregados 
+# A-03-03-M-ok - Visualizar cliente existente com vários clientes carregados  
+# A-03-04-M-ok - Visualizar cliente do meio e último existente com vários clientes carregados  
+
+Visualizar Clientes
+
+# A-04-01-M-ok ver lista de clientes importados por ordem 
+# A-04-02-M-ok ver lista de clientes importados desordenado 
+# A-04-03-M-ok ver lista de clientes importados desordenado com maiúsculas e minúsculas 
+
+Registar Cliente
+
+# A-05-01-M-ok registar cliente em rede de terminais sem clientes  
+# A-05-02-M-ok registar cliente em rede de terminais com clientes no fim da lista de clientes
+# A-05-03-M-ok registar cliente no início da lista/no meio da lista
+# A-05-04-M-ok registar cliente com chave duplicada 
+
+Activar/Desactivar recepção de contactos falhados
+
+# A-06-01-M-ok desactivar cliente activo 
+# A-06-02-M-ok desactivar cliente inactivo 
+# A-06-03-M-ok activar cliente inactivo 
+# A-06-04-M-ok activar cliente activo 
+# A-06-05-M-ok activar/desactivar várias vezes 
+
+Registar terminal
+
+# A-07-01-M-ok registar terminal BASIC num cliente sem terminais   
+# A-07-02-M-ok registar terminal FANCY num cliente sem terminais  
+# A-07-03-M-ok registar terminal não FANCY E BASIC num cliente sem terminais
+# A-07-04-M-ok registar terminal BASIC num cliente não existente  
+# A-07-05-M-ok registar terminal BASIC num cliente com id repetido no mesmo cliente   
+# A-07-06-M-ok registar terminal BASIC num cliente com id repetido em clientes distintos
+# A-07-07-M-ok registar terminal BASIC num cliente com id inválido (6 caracteres mas com letras)  
+# A-07-08-M-ok registar terminal BASIC com id 000001 num cliente existente 
+
+Mostrar todos os terminais
+
+# A-08-01-M-ok mostrar terminais com import com um único terminal  em ON  
+# A-08-02-M-ok mostrar terminais com import com um único terminal  em OFF
+# A-08-03-M-ok mostrar terminais com import com um único terminal  em SILENCE  
+# A-08-04-M-ok mostrar terminais com import com vários terminais ordenados 
+# A-08-05-M-ok mostrar terminais com import com vários terminais desordenados
+# A-08-06-M-ok mostrar terminais com import com vários terminais, insere um terminal no fim   
+# A-08-07-M-ok mostrar terminais com import com vários terminais, insere um terminal no início
+# A-08-08-M-ok mostrar terminais com import com vários terminais, insere um terminal no meio
+
+Menu de consola de um terminal
+
+# A-09-01-M-ok selecionar terminal que não existe  
+# A-09-02-M-ok selecionar um terminal de um cliente com um terminal 
+# A-09-03-M-ok selecionar um terminal de um cliente com vários terminais
+# A-09-04-M-ok selecionar terminal que não existe com 5 caracteres
+
+Mostrar terminais sem actividade
+
+# A-10-01-M-ok - carregar clientes com um terminal e apresentar os terminais sem actividade 
+# A-10-02-M-ok - carregar clientes cada um com um terminal e apresentar os terminais sem actividade 
+# A-10-03-M-ok - carregar clientes cada um com vários terminais e apresentar os terminais sem actividade 
+# A-10-04-M-ok - carregar clientes sem terminais, ver terminais sem actividade, adicionar um terminal e repetir.
+
+Fazer Comunicação de texto
+
+# A-11-01-M-ok - Fazer comunicação de texto entre dois terminais IDLE do mesmo cliente 
+# A-11-02-M-ok - Fazer comunicação de texto entre dois terminais IDLE de clientes distintos  
+# A-11-03-M-ok - Fazer comunicação de texto a partir de um terminal SILENCE
+# A-11-04-M-ok - Fazer comunicação de texto para um terminal OFF
+# A-11-05-M-ok - Fazer comunicação de texto para um terminal SILENCE
+# A-11-06-M-ok - Fazer comunicação de texto para um terminal BUSY 
+# A-11-07-M-ok - Fazer comunicação de texto para um terminal não existente 
+# A-11-08-M-ok - Fazer comunicação de texto de um terminal OFF 
+
+Fazer Comunicação Interactiva
+
+# A-12-01-M-ok - Fazer comunicação de voz entre dois terminais IDLE do mesmo cliente 
+# A-12-02-M-ok - Fazer comunicação de voz entre dois terminais IDLE de clientes distintos  
+# A-12-03-M-ok - Fazer comunicação de voz a partir de um terminal SILENCE para IDLE
+# A-12-04-M-ok - Fazer comunicação de voz para um terminal OFF
+# A-12-05-M-ok - Fazer comunicação de voz para um terminal SILENCE
+# A-12-06-M-ok - Fazer comunicação de voz para um terminal BUSY a receber comunicação  
+# A-12-07-M-ok - Fazer comunicação de voz para um terminal BUSY a fazer comunicação
+# A-12-08-M-ok - Fazer comunicação de voz para um terminal não existente
+# A-11-09-M-ok - Fazer comunicação interactiva e verificar que só pode ser VOICE/VIDEO
+# A-12-10-M-ok - Fazer comunicação de video entre dois terminais IDLE do mesmo cliente 
+# A-12-11-M-ok - Fazer comunicação de video entre dois terminais IDLE de clientes distintos  
+# A-12-12-M-ok - Fazer comunicação de video a partir de um terminal SILENCE para IDLE
+# A-12-13-M-ok - Fazer comunicação de video para um terminal SILENCE
+# A-12-14-M-ok - Fazer comunicação de video para um terminal OFF  
+
+Ver comunicação em curso
+
+# A-13-01-M-ok Ver comunicação voz em curso entre terminais BASIC
+# A-13-02-M-ok Ver comunicação voz em curso entre entre terminais BASIC  e FANCY
+# A-13-03-M-ok Ver comunicação video em curso
+# A-13-04-M-ok Ver comunicação em curso de terminal idle
+# A-13-05-M-ok Ver comunicação em curso de terminal idle mas há outro com comunicação em curso
+
+Terminar comunicação
+
+# A-14-01-M-ok Fazer comunicação voz entre dois IDLE, terminar comunicação e ver comunicação em curso e ver terminais 
+# A-14-02-M-ok Fazer comunicação voz entre dois IDLE, e tentar terminar comunicação do terminal chamado
+# A-14-03-M-ok Fazer comunicação voz entre dois IDLE, terminar comunicação e ver comunicação em curso e ver terminais 
+# A-14-04-M-ok Fazer comunicação voz entre um IDLE e um SILENCE, terminar comunicação e ver comunicação em curso e ver terminais 
+# A-14-05-M-ok Fazer comunicação video entre um IDLE e um SILENCE, terminar comunicação e ver comunicação em curso e ver terminais 
+
+Custo das comunicações - I
+
+# A-15-01-M-ok - Ver custo de comunicação texto com N < 50 para Normal
+# A-15-02-M-ok - Ver custo de comunicação texto com N = 50 e N > 100 para Normal
+# A-15-03-M-ok - Ver custo de comunicação texto com N > 100 e N =100 para Normal
+# A-15-04-M-ok - Ver custo de comunicação voz  para Normal 
+# A-15-05-M-ok - Ver custo de comunicação vídeo para Normal 
+
+Adicionar amigo
+
+# A-16-01-M-ok - Adicionar um terminal amigo e ver amigos 
+# A-16-02-M-ok - Adicionar o mesmo terminal amigo duas vezes e ver amigos 
+# A-16-03-M-ok - Adicionar um terminal amigo existente e outro não existente
+# A-16-04-M-ok - Adicionar vários terminais amigos por ordem
+# A-16-05-M-ok - Adicionar vários terminais amigos por ordem via import
+# A-16-06-M-ok - Adicionar vários terminais amigos por desordenados
+# A-16-07-M-ok - Adicionar um terminal como amigo de si próprio
+
+Remover amigo
+
+# A-17-01-M-ok - Remover um terminal amigo de um terminal sem amigos  
+# A-17-02-M-ok - Remover terminal não existente e não amigo de um terminal com amigos
+# A-17-03-M-ok - Remover um terminal amigo de um terminal com um amigo
+# A-17-04-M-ok - Remover um terminal amigo de um terminal com vários amigos e ficar sem amigos
+
+Notificações
+
+# A-18-01-M-ok - Activar recepção de contactos falhados para cliente com recepção activa 
+# A-18-02-M-ok - Desctivar recepção de contactos falhados para cliente com recepção activa 
+# A-18-03-M-ok - Activar recepção de contactos falhados para cliente com recepção inactiva 
+# A-18-04-M-ok - Desctivar recepção de contactos falhados para cliente com recepção inactiva 
+# A-18-05-M-ok - Fazer comunicação voz para terminal Off, ligar terminal 
+# A-18-06-M-ok - Fazer comunicação voz para terminal Off...
+# A-18-07-M-ok - Fazer comunicação vídeo para terminal Off, ligar terminal 
+# A-18-08-M-ok - Fazer comunicação vídeo para terminal Off...
+# A-18-09-M-ok - Fazer comunicação voz para terminal Off, ligar terminal ver que notificações são removidas
+# A-18-10-M-ok - Fazer comunicação texto para terminal Off, ligar terminal 
+# A-18-11-M-ok - Fazer comunicação texto para terminal Off, colocar terminal em silêncio 
+# A-18-12-M-ok - Fazer comunicação vídeo e voz de terminais de clientes distintos para terminal Off, ligar terminal 
+# A-18-13-M-ok - Fazer comunicação vídeo e voz do mesmo terminal para terminal Off, ligar terminal 
+# A-18-14-M-ok - Fazer comunicação vídeo e voz de dois terminais do mesmo cliente para terminal Off, ligar terminal 
+
+Operações sobre Terminais
+
+# A-19-01-M-ok - Ligar terminal desligado   
+# A-19-02-M-ok - Ligar terminal em silêncio   
+# A-19-03-M-ok - Ligar terminal ligado
+# A-19-04-M-ok - Colocar em silêncio terminal desligado e terminal ligado   
+# A-19-05-M-ok - Colocar em silêncio terminal em silêncio
+# A-19-06-M-ok - Desligar terminal em silêncio e terminal ligado   
+# A-19-07-M-ok - Desligar terminal desligado
+

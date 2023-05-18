@@ -1,0 +1,87 @@
+*** tests/test3.out	2022-11-04 10:02:30.039831400 +0000
+--- tests/test3.outhyp	2022-11-04 10:36:06.905398444 +0000
+***************
+*** 291,297 ****
+  10 - Terminar comunicação activa
+  11 - Mostrar comunicação em curso
+  0 - Sair
+! Escolha uma opção: Duração da comunicação (em minutos): Custo da comunicação: 20 unidades.
+  OPERAÇÕES DO TERMINAL
+  1 - Ligar
+  2 - Colocar no silêncio
+--- 291,297 ----
+  10 - Terminar comunicação activa
+  11 - Mostrar comunicação em curso
+  0 - Sair
+! Escolha uma opção: Duração da comunicação (em minutos): Custo da comunicação: 10 unidades.
+  OPERAÇÕES DO TERMINAL
+  1 - Ligar
+  2 - Colocar no silêncio
+***************
+*** 386,392 ****
+  3 - Operações de terminal
+  0 - Sair
+  Escolha uma opção: FANCY|111111|1|IDLE|2000|0|222222,333333,444444
+! FANCY|222222|2|IDLE|1500|100|111111
+  FANCY|333333|3|BUSY|0|0
+  FANCY|444444|4|BUSY|0|4000
+  GESTÃO DE TERMINAIS
+--- 386,392 ----
+  3 - Operações de terminal
+  0 - Sair
+  Escolha uma opção: FANCY|111111|1|IDLE|2000|0|222222, 333333, 444444
+! FANCY|222222|2|IDLE|1500|90|111111
+  FANCY|333333|3|BUSY|0|0
+  FANCY|444444|4|BUSY|0|4000
+  GESTÃO DE TERMINAIS
+***************
+*** 402,408 ****
+  5 - Menu de consultas
+  6 - Ver saldo global
+  0 - Sair
+! Escolha uma opção: Valores globais: 3500 (pagamentos),  4100 (dívidas).
+  MENU PRINCIPAL
+  1 - Abrir
+  2 - Guardar
+--- 402,408 ----
+  5 - Menu de consultas
+  6 - Ver saldo global
+  0 - Sair
+! Escolha uma opção: Valores globais: 0 (pagamentos),  0 (dívidas).
+  MENU PRINCIPAL
+  1 - Abrir
+  2 - Guardar
+***************
+*** 428,434 ****
+  VIDEO|6|222222|333333|1|20|FINISHED
+  VIDEO|7|222222|333333|1|20|FINISHED
+  VIDEO|8|222222|333333|1|20|FINISHED
+! VIDEO|9|222222|333333|1|20|FINISHED
+  VOICE|10|444444|222222|100|2000|FINISHED
+  VOICE|11|444444|111111|100|2000|FINISHED
+  VOICE|12|444444|333333|0|0|ONGOING
+--- 428,434 ----
+  VIDEO|6|222222|333333|1|20|FINISHED
+  VIDEO|7|222222|333333|1|20|FINISHED
+  VIDEO|8|222222|333333|1|20|FINISHED
+! VIDEO|9|222222|333333|1|10|FINISHED
+  VOICE|10|444444|222222|100|2000|FINISHED
+  VOICE|11|444444|111111|100|2000|FINISHED
+  VOICE|12|444444|333333|0|0|ONGOING
+***************
+*** 458,464 ****
+  6 - Mostrar saldo de cliente
+  0 - Sair
+  Escolha uma opção: CLIENT|1|Manuel Pinheiro|103443|GOLD|YES|1|2000|0
+! CLIENT|2|Pedro Pinheiro|103447|PLATINUM|YES|1|1500|100
+  CLIENT|3|João Pinheiro|103125|NORMAL|YES|1|0|0
+  CLIENT|4|John Pattenden|102546|NORMAL|YES|1|0|4000
+  GESTÃO DE CLIENTES
+--- 458,464 ----
+  6 - Mostrar saldo de cliente
+  0 - Sair
+  Escolha uma opção: CLIENT|1|Manuel Pinheiro|103443|GOLD|YES|1|2000|0
+! CLIENT|2|Pedro Pinheiro|103447|PLATINUM|YES|1|1500|90
+  CLIENT|3|João Pinheiro|103125|NORMAL|YES|1|0|0
+  CLIENT|4|John Pattenden|102546|NORMAL|YES|1|0|4000
+  GESTÃO DE CLIENTES

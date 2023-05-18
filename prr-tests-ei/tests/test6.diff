@@ -1,0 +1,12 @@
+*** tests/test6.out	2022-11-04 09:57:58.917606200 +0000
+--- tests/test6.outhyp	2022-11-04 10:36:07.025398445 +0000
+***************
+*** 153,158 ****
+--- 153,159 ----
+  0 - Sair
+  Escolha uma opção: Identificador do cliente: CLIENT|1|Manuel Pinheiro|103443|NORMAL|YES|1|0|0
+  O2I|444444
++ O2I|444444
+  GESTÃO DE CLIENTES
+  1 - Visualizar cliente
+  2 - Visualizar todos os clientes

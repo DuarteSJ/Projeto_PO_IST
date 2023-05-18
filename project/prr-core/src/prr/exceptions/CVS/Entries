@@ -1,0 +1,24 @@
+/AlreadyFriendException.java/1.1/Fri Nov  4 03:28:29 2022//
+/CommUnsupportedAtDestinationException.java/1.1/Fri Nov  4 03:28:30 2022//
+/CommUnsupportedAtOriginException.java/1.1/Fri Nov  4 03:28:30 2022//
+/DestinationIsBusyException.java/1.1/Fri Nov  4 03:28:30 2022//
+/DestinationIsOffException.java/1.1/Fri Nov  4 03:28:30 2022//
+/DestinationIsSilentException.java/1.1/Fri Nov  4 03:28:30 2022//
+/DuplicateClientKeyException.java/1.1/Thu Oct 20 17:55:18 2022//
+/DuplicateTerminalKeyException.java/1.1/Thu Oct 20 17:55:18 2022//
+/FriendNotFoundException.java/1.1/Fri Nov  4 03:28:30 2022//
+/ImportFileException.java/1.1/Wed Sep 14 16:51:38 2022//
+/InvalidCommException.java/1.1/Fri Nov  4 03:28:30 2022//
+/InvalidTerminalKeyException.java/1.1/Fri Nov  4 03:28:30 2022//
+/MissingFileAssociationException.java/1.1/Wed Sep 14 16:51:38 2022//
+/NoOngoingCommunicationException.java/1.1/Fri Nov  4 03:28:30 2022//
+/NotificationsAlreadyOffException.java/1.1/Fri Nov  4 03:28:31 2022//
+/NotificationsAlreadyOnException.java/1.1/Fri Nov  4 03:28:31 2022//
+/SelfContactException.java/1.1/Fri Nov  4 07:46:48 2022//
+/SelfFriendException.java/1.1/Thu Oct 20 17:55:18 2022//
+/TerminalStateErrorException.java/1.1/Fri Nov  4 03:28:31 2022//
+/UnavailableFileException.java/1.2/Sat Oct  1 17:34:11 2022//
+/UnknownClientKeyException.java/1.1/Thu Oct 20 17:55:18 2022//
+/UnknownTerminalKeyException.java/1.1/Thu Oct 20 17:55:18 2022//
+/UnrecognizedEntryException.java/1.2/Wed Sep 14 17:39:54 2022//
+D
